@@ -1,0 +1,5 @@
+tasks:
+  - before: |
+      sdk install java 21.0.1-tem
+      sdk use java 21.0.1-tem
+      sdk default java 21.0.1-tem
